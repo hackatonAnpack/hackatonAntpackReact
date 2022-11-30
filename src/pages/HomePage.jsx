@@ -1,9 +1,12 @@
 import { useState } from 'react'
+import Header from '../components/Header'
 
 function HomePage() {
 
   return (
-    <div>hola mundo</div>
+    <div>
+      <Header ></Header>
+    </div>
   )
 }
 
